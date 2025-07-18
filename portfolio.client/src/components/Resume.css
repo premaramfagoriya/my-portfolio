@@ -1,0 +1,32 @@
+.resume-section {
+    /*    margin-left: 250px;*/
+    padding: 20px 70px;
+    background: #ffffff;
+    color: #222;
+}
+
+    .resume-section h2 {
+        font-size: 32px;
+        color: #0f1a2b;
+        margin-bottom: 20px;
+    }
+
+.resume-block {
+    margin-bottom: 40px;
+}
+
+    .resume-block h3 {
+        font-size: 22px;
+        color: #1e90ff;
+        margin-bottom: 10px;
+    }
+
+    .resume-block p {
+        font-size: 16px;
+        line-height: 1.5;
+    }
+
+    .resume-block ul {
+        list-style-type: disc;
+        padding-left: 20px;
+    }

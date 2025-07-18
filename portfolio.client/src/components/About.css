@@ -1,0 +1,27 @@
+.about-section {
+/*    margin-left: 250px;*/
+    padding: 50px 70px;
+    background: #f9f9f9;
+    color: #333;
+}
+
+    .about-section h2 {
+        font-size: 32px;
+        color: #0f1a2b;
+        margin-bottom: 20px;
+    }
+
+    .about-section p {
+        font-size: 16px;
+        line-height: 1.6;
+        margin-bottom: 15px;
+    }
+
+.skills-list {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+    .skills-list li {
+        margin-bottom: 10px;
+    }
