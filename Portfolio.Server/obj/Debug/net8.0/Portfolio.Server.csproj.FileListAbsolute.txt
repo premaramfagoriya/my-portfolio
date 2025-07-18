@@ -36,3 +36,4 @@ E:\WebDev\Portfolio\Portfolio.Server\obj\Debug\net8.0\refint\Portfolio.Server.dl
 E:\WebDev\Portfolio\Portfolio.Server\obj\Debug\net8.0\Portfolio.Server.pdb
 E:\WebDev\Portfolio\Portfolio.Server\obj\Debug\net8.0\Portfolio.Server.genruntimeconfig.cache
 E:\WebDev\Portfolio\Portfolio.Server\obj\Debug\net8.0\ref\Portfolio.Server.dll
+E:\WebDev\Portfolio\Portfolio.Server\obj\Debug\net8.0\Portfolio.Server.sourcelink.json

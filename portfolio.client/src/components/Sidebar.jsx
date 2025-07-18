@@ -1,6 +1,7 @@
 ﻿import React, { useState } from 'react';
 import './Sidebar.css';
 import { FaGithub, FaLinkedin, FaEnvelope, FaBars, FaTimes } from 'react-icons/fa';
+import photo from "../assets/Prem_formal_photo.jpg"
 
 const Sidebar = () => {
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -8,7 +9,8 @@ const Sidebar = () => {
     return (
         <header id="sidebar">
             <div className="sidebar-container">
-                <img src="./assets/Prem_formal_photo.jpg" alt="Premaram" className="profile-img" />
+                <img src={photo} alt="Premaram" className="profile-img" />
+
                 <div className="desktop-content">
                     <h1 className="name">Premaram</h1>
                     <p className="role">Full Stack Developer</p>
