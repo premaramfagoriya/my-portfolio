@@ -12,7 +12,7 @@ const Sidebar = () => {
                 <img src={photo} alt="Premaram" className="profile-img" />
 
                 <div className="desktop-content">
-                    <h1 className="name">Premaram</h1>
+                    <h1 className="name">Premaram Fagoriya</h1>
                     <p className="role">Full Stack Developer</p>
                 </div>
 
