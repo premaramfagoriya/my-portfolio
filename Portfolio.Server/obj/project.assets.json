@@ -2,7 +2,7 @@
   "version": 3,
   "targets": {
     "net8.0": {
-      "Microsoft.AspNetCore.SpaProxy/8.0.18": {
+      "Microsoft.AspNetCore.SpaProxy/8.0.24": {
         "type": "package",
         "compile": {
           "lib/net8.0/Microsoft.AspNetCore.SpaProxy.dll": {}
@@ -107,10 +107,10 @@
     }
   },
   "libraries": {
-    "Microsoft.AspNetCore.SpaProxy/8.0.18": {
-      "sha512": "Qcn9OIzPmcAJZPjb/Vv3mD09v6GLG7y7srQ/es8J6wB5Glm+IYJm868ZBDZpDx9M+aRv6EdF2MDhR3xx3SRpzw==",
+    "Microsoft.AspNetCore.SpaProxy/8.0.24": {
+      "sha512": "Rp0r2Ie9zd8k+TYV10TYDGxu+fLoQoOtd8lRyRvaM/SK2BqqtG0k5JewmUJsYXu6jy5mXc9vuNydQb5AjFrz1g==",
       "type": "package",
-      "path": "microsoft.aspnetcore.spaproxy/8.0.18",
+      "path": "microsoft.aspnetcore.spaproxy/8.0.24",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -118,7 +118,7 @@
         "THIRD-PARTY-NOTICES.TXT",
         "build/Microsoft.AspNetCore.SpaProxy.targets",
         "lib/net8.0/Microsoft.AspNetCore.SpaProxy.dll",
-        "microsoft.aspnetcore.spaproxy.8.0.18.nupkg.sha512",
+        "microsoft.aspnetcore.spaproxy.8.0.24.nupkg.sha512",
         "microsoft.aspnetcore.spaproxy.nuspec"
       ]
     },
@@ -478,23 +478,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\lenovo\\.nuget\\packages\\": {},
+    "C:\\Users\\prema\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\WebDev\\Portfolio\\Portfolio.Server\\Portfolio.Server.csproj",
+      "projectUniqueName": "D:\\Pendrive data\\WebDev\\Portfolio\\Portfolio.Server\\Portfolio.Server.csproj",
       "projectName": "Portfolio.Server",
-      "projectPath": "E:\\WebDev\\Portfolio\\Portfolio.Server\\Portfolio.Server.csproj",
-      "packagesPath": "C:\\Users\\lenovo\\.nuget\\packages\\",
-      "outputPath": "E:\\WebDev\\Portfolio\\Portfolio.Server\\obj\\",
+      "projectPath": "D:\\Pendrive data\\WebDev\\Portfolio\\Portfolio.Server\\Portfolio.Server.csproj",
+      "packagesPath": "C:\\Users\\prema\\.nuget\\packages\\",
+      "outputPath": "D:\\Pendrive data\\WebDev\\Portfolio\\Portfolio.Server\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\prema\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -522,7 +522,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.300"
+      "SdkAnalysisLevel": "10.0.100"
     },
     "frameworks": {
       "net8.0": {
@@ -556,7 +556,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.103/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

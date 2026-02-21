@@ -37,3 +37,43 @@ E:\WebDev\Portfolio\Portfolio.Server\obj\Debug\net8.0\Portfolio.Server.pdb
 E:\WebDev\Portfolio\Portfolio.Server\obj\Debug\net8.0\Portfolio.Server.genruntimeconfig.cache
 E:\WebDev\Portfolio\Portfolio.Server\obj\Debug\net8.0\ref\Portfolio.Server.dll
 E:\WebDev\Portfolio\Portfolio.Server\obj\Debug\net8.0\Portfolio.Server.sourcelink.json
+D:\Pendrive data\WebDev\Portfolio\Portfolio.Server\bin\Debug\net8.0\appsettings.Development.json
+D:\Pendrive data\WebDev\Portfolio\Portfolio.Server\bin\Debug\net8.0\appsettings.json
+D:\Pendrive data\WebDev\Portfolio\Portfolio.Server\bin\Debug\net8.0\spa.proxy.json
+D:\Pendrive data\WebDev\Portfolio\Portfolio.Server\bin\Debug\net8.0\Portfolio.Server.staticwebassets.endpoints.json
+D:\Pendrive data\WebDev\Portfolio\Portfolio.Server\bin\Debug\net8.0\Portfolio.Server.exe
+D:\Pendrive data\WebDev\Portfolio\Portfolio.Server\bin\Debug\net8.0\Portfolio.Server.deps.json
+D:\Pendrive data\WebDev\Portfolio\Portfolio.Server\bin\Debug\net8.0\Portfolio.Server.runtimeconfig.json
+D:\Pendrive data\WebDev\Portfolio\Portfolio.Server\bin\Debug\net8.0\Portfolio.Server.dll
+D:\Pendrive data\WebDev\Portfolio\Portfolio.Server\bin\Debug\net8.0\Portfolio.Server.pdb
+D:\Pendrive data\WebDev\Portfolio\Portfolio.Server\bin\Debug\net8.0\Microsoft.AspNetCore.SpaProxy.dll
+D:\Pendrive data\WebDev\Portfolio\Portfolio.Server\bin\Debug\net8.0\Microsoft.OpenApi.dll
+D:\Pendrive data\WebDev\Portfolio\Portfolio.Server\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Pendrive data\WebDev\Portfolio\Portfolio.Server\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Pendrive data\WebDev\Portfolio\Portfolio.Server\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Pendrive data\WebDev\Portfolio\Portfolio.Server\obj\Debug\net8.0\Portfolio.Server.csproj.AssemblyReference.cache
+D:\Pendrive data\WebDev\Portfolio\Portfolio.Server\obj\Debug\net8.0\spa.proxy.json
+D:\Pendrive data\WebDev\Portfolio\Portfolio.Server\obj\Debug\net8.0\rpswa.dswa.cache.json
+D:\Pendrive data\WebDev\Portfolio\Portfolio.Server\obj\Debug\net8.0\Portfolio.Server.GeneratedMSBuildEditorConfig.editorconfig
+D:\Pendrive data\WebDev\Portfolio\Portfolio.Server\obj\Debug\net8.0\Portfolio.Server.AssemblyInfoInputs.cache
+D:\Pendrive data\WebDev\Portfolio\Portfolio.Server\obj\Debug\net8.0\Portfolio.Server.AssemblyInfo.cs
+D:\Pendrive data\WebDev\Portfolio\Portfolio.Server\obj\Debug\net8.0\Portfolio.Server.csproj.CoreCompileInputs.cache
+D:\Pendrive data\WebDev\Portfolio\Portfolio.Server\obj\Debug\net8.0\Portfolio.Server.MvcApplicationPartsAssemblyInfo.cs
+D:\Pendrive data\WebDev\Portfolio\Portfolio.Server\obj\Debug\net8.0\Portfolio.Server.MvcApplicationPartsAssemblyInfo.cache
+D:\Pendrive data\WebDev\Portfolio\Portfolio.Server\obj\Debug\net8.0\Portfolio.Server.sourcelink.json
+D:\Pendrive data\WebDev\Portfolio\Portfolio.Server\obj\Debug\net8.0\rjimswa.dswa.cache.json
+D:\Pendrive data\WebDev\Portfolio\Portfolio.Server\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+D:\Pendrive data\WebDev\Portfolio\Portfolio.Server\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+D:\Pendrive data\WebDev\Portfolio\Portfolio.Server\obj\Debug\net8.0\scopedcss\bundle\Portfolio.Server.styles.css
+D:\Pendrive data\WebDev\Portfolio\Portfolio.Server\obj\Debug\net8.0\staticwebassets.build.json
+D:\Pendrive data\WebDev\Portfolio\Portfolio.Server\obj\Debug\net8.0\staticwebassets.build.json.cache
+D:\Pendrive data\WebDev\Portfolio\Portfolio.Server\obj\Debug\net8.0\staticwebassets.development.json
+D:\Pendrive data\WebDev\Portfolio\Portfolio.Server\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+D:\Pendrive data\WebDev\Portfolio\Portfolio.Server\obj\Debug\net8.0\swae.build.ex.cache
+D:\Pendrive data\WebDev\Portfolio\Portfolio.Server\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+D:\Pendrive data\WebDev\Portfolio\Portfolio.Server\obj\Debug\net8.0\Portfoli.E89C3144.Up2Date
+D:\Pendrive data\WebDev\Portfolio\Portfolio.Server\obj\Debug\net8.0\Portfolio.Server.dll
+D:\Pendrive data\WebDev\Portfolio\Portfolio.Server\obj\Debug\net8.0\refint\Portfolio.Server.dll
+D:\Pendrive data\WebDev\Portfolio\Portfolio.Server\obj\Debug\net8.0\Portfolio.Server.pdb
+D:\Pendrive data\WebDev\Portfolio\Portfolio.Server\obj\Debug\net8.0\Portfolio.Server.genruntimeconfig.cache
+D:\Pendrive data\WebDev\Portfolio\Portfolio.Server\obj\Debug\net8.0\ref\Portfolio.Server.dll

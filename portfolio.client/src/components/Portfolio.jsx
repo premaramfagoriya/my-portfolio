@@ -1,63 +1,251 @@
-﻿import React from 'react';
+﻿import React, { useState } from 'react';
 import './Portfolio.css';
 
+import gms from "../assets/emp_dashboard.jpg";
+import quick from "../assets/Quickmart.jpg";
+import smart from "../assets/analytics1.jpg";
+import videoImg from "../assets/Recording.jpg";
+
+/* GMS Gallery images */
+import gms0 from "../assets/Login_main.jpg";
+import gms1 from "../assets/employee_dashboard.jpg";
+import gms2 from "../assets/emp_form.jpg";
+import gms3 from "../assets/emp_trackReq.jpg";
+import gms4 from "../assets/hr_dashboard.jpg";
+import gms5 from "../assets/hr_charts.jpg";
+import gms6 from "../assets/hr_reports.jpg";
+import gms7 from "../assets/loginAuditor.jpg";
+import gms8 from "../assets/auditorcharts.jpg";
+
+/* Video System Gallery */
+import video1 from "../assets/Recording.jpg";
+import video2 from "../assets/VideoRecording.jpg";
+
+
 const projects = [
+
     {
-        title: 'Grievance Management System',
-        description: 'Full-stack web app with role-based dashboards for Admin, HR, and Employees. JWT auth, charts, and SQL integration.',
-        tech: 'ASP.NET Core, React.js, SQL Server',
-        image: './assets/project1.jpg'
+        title: 'GMS (Grievance Management System)',
+        description: 'Enterprise-level grievance platform with role-based dashboards, JWT authentication, charts, and automated tracking.',
+        tech: '.NET Core Web API, React.js, SQL Server, JWT',
+        github: 'https://github.com/premaramfagoriya/Grievance_Management_System',
+        image: gms,
+
+        gallery: [
+            gms0,
+            gms1,
+            gms2,
+            gms3,
+            gms4,
+            gms5,
+            gms6,
+            gms7,
+            gms8
+        ],
+
+        video: null
     },
-    //{
-    //    title: 'Employee Registration System',
-    //    description: 'Form-based employee tracking app with validations, image uploads, and API integration.',
-    //    tech: 'React.js, .NET Core API, Bootstrap',
-    //    image: './assets/project2.jpg'
-    //},
+
+
     {
-        title: 'Stock Market Dashboard',
-        description: 'Forecasted stock trends using ML and visualized data in Tableau dashboards.',
-        tech: 'Python, ML, Tableau',
-        image: './assets/project3.jpg'
+        title: 'QuickMart (Grocery Delivery App)',
+        description: 'Full-stack e-commerce platform with cart, order processing, authentication, and database integration.',
+        tech: '.NET Core, React.js, SQL Server, JWT',
+        github: null,
+        image: quick,
+
+        gallery: [
+            quick   // use main image until more screenshots added
+        ],
+
+        video: null
     },
+
+
     {
-        title: 'IPL Data Visualization',
-        description: 'Analyzed IPL performance stats with Power BI dashboards and Python scripts.',
-        tech: 'Python, Power BI',
-        image: './assets/project4.jpg'
+        title: 'Smart Analytics Dashboard',
+        description: 'Interactive business analytics dashboard with real-time charts and reporting.',
+        tech: '.NET Core, React.js, SQL Server, Chart.js',
+        github: 'https://github.com/premaramfagoriya/smart-analytics',
+        image: smart,
+
+        gallery: [
+            smart
+        ],
+
+        video: null
+        // OR use youtube embed link here if available
+    },
+
+
+    {
+        title: 'Video Recording System',
+        description: 'Video recording and management system using WebRTC and secure backend.',
+        tech: '.NET Core, React.js, SQL Server, WebRTC',
+        github: 'https://github.com/premaramfagoriya/Video-Recording-App',
+        image: videoImg,
+
+        gallery: [
+            video1,
+            video2
+        ],
+
+        video: null
     }
+
 ];
 
+
 const Portfolio = () => {
+
+    const [selectedProject, setSelectedProject] = useState(null);
+
+    const openGallery = (project) => {
+        setSelectedProject(project);
+    };
+
+    const closeGallery = () => {
+        setSelectedProject(null);
+    };
+
+
     return (
+
         <section id="portfolio" className="portfolio-section">
+
             <div className="section-header">
                 <h2>My Projects</h2>
                 <p>Here are some of my recent works</p>
             </div>
+
+
             <div className="project-grid">
+
                 {projects.map((proj, index) => (
+
                     <div className="project-card" key={index}>
+
+
                         <div className="project-image">
+
                             <img src={proj.image} alt={proj.title} />
+
                             <div className="project-overlay">
-                                <a href="#" className="view-btn">View Project</a>
+
+                                {proj.github && (
+
+                                    <a
+                                        href={proj.github}
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="view-btn"
+                                    >
+                                        GitHub
+                                    </a>
+
+                                )}
+
+
+                                <button
+                                    className="view-btn"
+                                    onClick={() => openGallery(proj)}
+                                >
+                                    View Demo
+                                </button>
+
+
                             </div>
+
                         </div>
+
+
                         <div className="project-content">
+
                             <h3>{proj.title}</h3>
+
                             <p>{proj.description}</p>
+
+
                             <div className="tech-tags">
+
                                 {proj.tech.split(', ').map((tech, i) => (
-                                    <span key={i} className="tech-tag">{tech}</span>
+
+                                    <span key={i} className="tech-tag">
+                                        {tech}
+                                    </span>
+
                                 ))}
+
                             </div>
+
                         </div>
+
                     </div>
+
                 ))}
+
             </div>
+
+
+
+            {/* Modal Gallery */}
+
+            {selectedProject && (
+
+                <div className="gallery-modal">
+
+                    <div className="gallery-content">
+
+                        <span
+                            className="close-btn"
+                            onClick={closeGallery}
+                        >
+                            ×
+                        </span>
+
+
+                        <h2>{selectedProject.title}</h2>
+
+
+                        {selectedProject.video && (
+
+                            <iframe
+                                width="100%"
+                                height="400"
+                                src={selectedProject.video}
+                                title="Project Demo"
+                                allowFullScreen
+                            />
+
+                        )}
+
+
+                        <div className="gallery-grid">
+
+                            {selectedProject.gallery.map((img, i) => (
+
+                                <img
+                                    key={i}
+                                    src={img}
+                                    alt="Project Screenshot"
+                                />
+
+                            ))}
+
+                        </div>
+
+
+                    </div>
+
+                </div>
+
+            )}
+
         </section>
+
     );
+
 };
+
 
 export default Portfolio;

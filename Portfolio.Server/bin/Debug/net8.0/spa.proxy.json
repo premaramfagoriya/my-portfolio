@@ -3,7 +3,7 @@
 "ServerUrl": "https://localhost:49264",
 "RedirectUrl": "",
 "LaunchCommand": "npm run dev",
-"WorkingDirectory": "E:\\WebDev\\Portfolio\\Portfolio.Server\\..\\portfolio.client",
+"WorkingDirectory": "D:\\Pendrive data\\WebDev\\Portfolio\\Portfolio.Server\\..\\portfolio.client",
 "MaxTimeoutInSeconds": "120",
 "KeepRunning": "false"
 }

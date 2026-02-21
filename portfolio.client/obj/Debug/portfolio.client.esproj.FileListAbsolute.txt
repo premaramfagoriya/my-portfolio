@@ -1,1 +1,2 @@
 E:\WebDev\Portfolio\portfolio.client\obj\Debug\portfolio.client.esproj.CoreCompileInputs.cache
+D:\Pendrive data\WebDev\Portfolio\portfolio.client\obj\Debug\portfolio.client.esproj.CoreCompileInputs.cache
