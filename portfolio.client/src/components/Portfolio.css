@@ -78,6 +78,7 @@
 }
 
 .view-btn {
+    margin-left : 12px;
     padding: 10px 20px;
     background: var(--accent);
     color: white;

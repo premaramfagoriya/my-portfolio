@@ -5,6 +5,7 @@ import gms from "../assets/emp_dashboard.jpg";
 import quick from "../assets/Quickmart.jpg";
 import smart from "../assets/analytics1.jpg";
 import videoImg from "../assets/Recording.jpg";
+import ai_resume from "../assets/AiResume_user.jpg";
 
 /* GMS Gallery images */
 import gms0 from "../assets/Login_main.jpg";
@@ -16,13 +17,35 @@ import gms5 from "../assets/hr_charts.jpg";
 import gms6 from "../assets/hr_reports.jpg";
 import gms7 from "../assets/loginAuditor.jpg";
 import gms8 from "../assets/auditorcharts.jpg";
+import gmsdemo from "../assets/GMS.mp4";
+
+// AI Resume Gallery
+import ai1 from "../assets/AiResume_user.jpg";
+import ai2 from "../assets/AiResume_Login.jpg";
+import ai3 from "../assets/AiResume_HRDashboard.jpg";
+import ai4 from "../assets/AiResume_HrAnalytics.jpg";
+import ai5 from "../assets/AiResume_Job.jpg";
+import aidemo from "../assets/AiResume_Demo1.mp4";
 
 /* Video System Gallery */
 import video1 from "../assets/Recording.jpg";
 import video2 from "../assets/VideoRecording.jpg";
 
+// Quick Mart Gallery 
+import quickdemo from "../assets/QuickMart.mp4";
+
 
 const projects = [
+    {
+        title: "AI Resume Screening System",
+        description:
+        "AI-powered resume screening platform that automatically evaluates resumes using ATS scoring, skill extraction, and intelligent job-role matching.",
+        tech: '.NET Core Web API, React.js, SQL Server, Dapper, JWT, OpenRouter / Gemini API',
+        github: "https://github.com/premaramfagoriya/AI-Resume-Screening-System",
+        image: ai_resume,
+        gallery: [ai1, ai2, ai3,ai4,ai5],
+        video: aidemo
+     },
 
     {
         title: 'GMS (Grievance Management System)',
@@ -43,7 +66,7 @@ const projects = [
             gms8
         ],
 
-        video: null
+        video: gmsdemo
     },
 
 
@@ -58,7 +81,7 @@ const projects = [
             quick   // use main image until more screenshots added
         ],
 
-        video: null
+        video: quickdemo
     },
 
 
